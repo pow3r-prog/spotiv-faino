@@ -1,0 +1,5 @@
+export const HOME_ROOT = '/'
+export const FAVORITE_ROOT = '/favorite'
+export const LIBRARY_ROOT = '/library'
+export const PROFILE_ROOT = '/profile'
+export const SETTINGS_ROOT = '/settings'
