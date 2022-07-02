@@ -1,6 +1,7 @@
 @import '../../styles/variables.scss';
 
 .nav {
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -18,12 +19,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 120px;
+    width: 40px;
 
     &-item {
       cursor: pointer;
-      margin: 10px 0;
-      width: 30px;
+      margin: 40px 0;
+      width: 35px;
+
+      &:hover {
+        background: $color-light-blue;
+      }
     }
   }
 }
