@@ -1,11 +1,11 @@
 import React from 'react'
 
-import Navigation from 'containers/Navigation/Navigation'
+import Dashboard from 'containers/Dashboard/Dashboard'
 
 function App() {
   return (
     <div className='App'>
-      <Navigation />
+      <Dashboard />
     </div>
   )
 }
