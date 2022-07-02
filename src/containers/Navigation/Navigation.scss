@@ -1,0 +1,29 @@
+@import '../../styles/variables.scss';
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 200px;
+  border-right: solid 1px $color-dark-grey;
+  height: 100vh;
+
+  &--title {
+    margin-top: 50px;
+  }
+
+  &--list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+
+    &-item {
+      cursor: pointer;
+      margin: 10px 0;
+      width: 30px;
+    }
+  }
+}
