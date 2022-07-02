@@ -1,4 +1,5 @@
-export const HOME_ROOT = '/'
+export const WELCOME_ROOT = '/'
+export const HOME_ROOT = '/home'
 export const FAVORITE_ROOT = '/favorite'
 export const LIBRARY_ROOT = '/library'
 export const PROFILE_ROOT = '/profile'
