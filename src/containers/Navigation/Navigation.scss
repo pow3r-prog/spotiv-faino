@@ -23,13 +23,22 @@
     width: 40px;
 
     &-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       cursor: pointer;
       margin: 40px 0;
-      width: 35px;
+      width: 55px;
+      height: 55px;
+      border-radius: 25px;
 
       &:hover {
         background: $color-light-blue;
       }
+    }
+
+    .active {
+      background: $color-light-blue;
     }
   }
 }
