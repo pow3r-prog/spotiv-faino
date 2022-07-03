@@ -2,13 +2,13 @@ import React from 'react'
 
 import './style.scss'
 
-type IMusic = {
+interface IMusic {
   id?: string
   musicName?: string
   musicImage?: string
 }
 
-type IData = {
+interface IData {
   title?: string
   data: IMusic[]
 }
