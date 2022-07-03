@@ -1,0 +1,49 @@
+@import 'styles/variables.scss';
+
+.music--container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &-title {
+    width: 100%;
+    font-size: 36px;
+    color: $color-white;
+  }
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+
+    @media (max-width: $device-medium) {
+      justify-content: center;
+    }
+
+    .container--item {
+      display: flex;
+      justify-content: flex-start;
+      border-radius: 25px;
+      align-items: center;
+      background: $color-dark-grey;
+      width: 440px;
+      margin-top: 25px;
+      cursor: pointer;
+
+      &-image {
+        border-radius: 25px 0 0 25px;
+      }
+
+      &-name {
+        margin-left: 25px;
+        font-size: 18px;
+        color: $color-white;
+      }
+    }
+  }
+}

@@ -19,6 +19,7 @@ const NavList = (): React.ReactElement => {
     <div className='nav--list'>
       {data.map((item) => (
         <NavLink
+          key={item.key}
           className={
             activeNavBtnByPath(item)
               ? 'nav--list-item active'
@@ -26,7 +27,7 @@ const NavList = (): React.ReactElement => {
           }
           to={item.path}
         >
-          <img id={item.key} src={item.icon} alt='NavLogo' />
+          <img src={item.icon} alt='NavLogo' />
         </NavLink>
       ))}
     </div>
