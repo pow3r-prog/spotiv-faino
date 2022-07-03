@@ -1,0 +1,24 @@
+@import 'styles/variables.scss';
+
+.playlist {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 280px;
+  height: 330px;
+  background: $color-dark-grey;
+  border-radius: 5px;
+  margin: 0 25px 25px;
+  cursor: pointer;
+
+  &--image {
+    width: 90%;
+    border-radius: 5px;
+  }
+
+  &--name {
+    color: $color-white;
+    font-size: 18px;
+  }
+}

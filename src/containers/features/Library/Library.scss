@@ -1,0 +1,35 @@
+@import 'styles/variables.scss';
+
+.library {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+
+  .create--playlist {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 280px;
+    height: 330px;
+    background: $color-dark-grey;
+    border-radius: 5px;
+    margin: 0 25px 25px;
+    cursor: pointer;
+
+    .add--icon-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 250px;
+      height: 250px;
+    }
+
+    div {
+      color: $color-white;
+      font-size: 18px;
+    }
+  }
+}

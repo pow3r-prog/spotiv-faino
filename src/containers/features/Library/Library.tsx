@@ -1,9 +1,26 @@
 import React from 'react'
+import PlaylistBlock from 'components/shared/playlistBlock/PlaylistBlock'
 
 import './Library.scss'
 
+import { data } from './data'
+
+import AddIcon from 'assets/img/libraryPage/AddIcon.svg'
+
 const Library = (): React.ReactElement => {
-  return <div className='library'>library-page</div>
+  return (
+    <div className='inner-container'>
+      <div className='library'>
+        <div className='create--playlist'>
+          <div className='add--icon-container'>
+            <img src={AddIcon} alt='AddIcon' />
+          </div>
+          <div>Create playlist</div>
+        </div>
+        <PlaylistBlock data={data} />
+      </div>
+    </div>
+  )
 }
 
 export default Library as React.FC
