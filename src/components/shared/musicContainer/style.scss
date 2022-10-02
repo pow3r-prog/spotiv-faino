@@ -11,7 +11,9 @@
     width: 100%;
     font-size: 36px;
     color: $color-white;
+    font-family: $nunito-bold, sans-serif;
   }
+
   &-list {
     display: flex;
     flex-wrap: wrap;
@@ -30,10 +32,17 @@
       justify-content: flex-start;
       border-radius: 25px;
       align-items: center;
-      background: $color-dark-grey;
       width: 440px;
       margin-top: 25px;
       cursor: pointer;
+      background: linear-gradient(
+        111.21deg,
+        $color-dark-grey -0.7%,
+        rgba(196, 196, 196, 0) 100%,
+        rgb(84, 84, 84) 100%
+      );
+      border: 1px solid $color-dark-grey;
+      backdrop-filter: blur(15px);
 
       &-image {
         border-radius: 25px 0 0 25px;
@@ -43,6 +52,7 @@
         margin-left: 25px;
         font-size: 18px;
         color: $color-white;
+        font-family: $nunito-semibold, sans-serif;
       }
     }
   }

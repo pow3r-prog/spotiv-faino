@@ -2,7 +2,7 @@ import React from 'react'
 
 import './style.scss'
 
-interface IMusic {
+type TMusic = {
   id?: string
   musicName?: string
   musicImage?: string
@@ -10,7 +10,7 @@ interface IMusic {
 
 interface IData {
   title?: string
-  data: IMusic[]
+  data: TMusic[]
 }
 
 const MusicContainer = ({ title, data }: IData): React.ReactElement => {

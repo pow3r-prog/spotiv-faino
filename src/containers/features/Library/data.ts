@@ -1,34 +1,34 @@
-import PlalistImage from 'assets/img/libraryPage/PlaylistImage.png'
+import PlaylistImage from 'assets/img/libraryPage/PlaylistImage.png'
 
 export const data = [
   {
     id: '1',
-    plalistImage: PlalistImage,
+    playlistImage: PlaylistImage,
     playlistName: 'Problems',
   },
   {
     id: '2',
-    plalistImage: PlalistImage,
+    playlistImage: PlaylistImage,
     playlistName: 'Relax',
   },
   {
     id: '3',
-    plalistImage: PlalistImage,
+    playlistImage: PlaylistImage,
     playlistName: 'Summertime',
   },
   {
     id: '4',
-    plalistImage: PlalistImage,
+    playlistImage: PlaylistImage,
     playlistName: 'Back in Black',
   },
   {
     id: '5',
-    plalistImage: PlalistImage,
+    playlistImage: PlaylistImage,
     playlistName: 'Country road',
   },
   {
     id: '6',
-    plalistImage: PlalistImage,
+    playlistImage: PlaylistImage,
     playlistName: '2Scratch',
   },
 ]

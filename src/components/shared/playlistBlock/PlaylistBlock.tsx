@@ -2,14 +2,14 @@ import React from 'react'
 
 import './style.scss'
 
-interface IPlaylist {
+type TPlaylist = {
   id: string
-  plalistImage: string
+  playlistImage: string
   playlistName: string
 }
 
 interface IData {
-  data: IPlaylist[]
+  data: TPlaylist[]
 }
 
 const PlaylistBlock = ({ data }: IData): React.ReactElement => {
@@ -19,7 +19,7 @@ const PlaylistBlock = ({ data }: IData): React.ReactElement => {
         <div className='playlist' key={item.id}>
           <img
             className='playlist--image'
-            src={item.plalistImage}
+            src={item.playlistImage}
             alt='playlistImage'
           />
           <div className='playlist--name'>{item.playlistName}</div>

@@ -7,7 +7,13 @@
   flex-direction: column;
   width: 280px;
   height: 330px;
-  background: $color-dark-grey;
+  background: linear-gradient(
+    94.2deg,
+    $color-dark-grey 0%,
+    rgba(57, 59, 72, 0.05) 100%
+  );
+  border: 1px solid $color-dark-grey;
+  backdrop-filter: blur(15px);
   border-radius: 5px;
   margin: 0 25px 25px;
   cursor: pointer;
@@ -20,5 +26,6 @@
   &--name {
     color: $color-white;
     font-size: 18px;
+    font-family: $nunito-regular, sans-serif;
   }
 }
